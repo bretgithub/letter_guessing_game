@@ -52,7 +52,7 @@ document.onkeyup = function (event) {
         // if ltr is equal to compLetter then do actions below
         if (ltr === compLetter) {
             // alert to user, you have won because your guess matched the random letter the computer drew
-            alert("Congrats, you won! The letter was '" + compLetter.toUpperCase() + "' Click ok to play again");
+            alert("Congrats, you won! The letter was '" + compLetter.toUpperCase() + "' Click ok to play again.");
             // calls the startGame function to reset the game
             startGame();
             // if the guessed letter is not what compLetter is, what the computer has picked, do below
@@ -68,7 +68,7 @@ document.onkeyup = function (event) {
                 // if the letter you guess is already in the array guessedLetters
             } else {
                 // alert the user that they have already guessed that letter
-                alert("You've already guessed '" + ltr + "'");
+                alert("You've already guessed '" + ltr + "' Pick again.");
             }
             // when counter becomes zero, do below
             if (counter === 0) {
@@ -78,7 +78,7 @@ document.onkeyup = function (event) {
                 startGame();
             }
         }
-        // calls the startGame function to update the DOM
+        // calls the drawStuff function to update the DOM to the user
         drawStuff();
     }
 }
