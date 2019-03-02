@@ -29,11 +29,13 @@ The exercise had us manipulate:
 * Strings
 * Debugging
 
+#### NOTE: THIS IS THE ASSIGNMENT THAT WAS TURNED IN FOR GRADING 
+
 ## Roadmap
 I intend to redesign this page with more styling using Bootstrap to jazz it up
 
 ## Feedback
-Open to feedback, I posted pain-points in the comments of the <a href="https://github.com/bretgithub/basic-portfolio/blob/master/assets/css/style.css">style.css</a> file. 
+Open to feedback and how to finish the logic, restructure code.
 
 ## Shoutout
 Props to Molly, Joe, and Trae who are our cohort's TAs who helped work through logic and how to better structure the code in a way that would allow me to write more efficient functions. 
