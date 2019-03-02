@@ -24,7 +24,7 @@ function startGame() {
     counter = 5;
     // restarts the guessedLetters array to empty
     guessedLetters = [];
-    // picks a letter from the array availableLetters and stores it in random
+    // picks a letter from the array availableLetters and stores it in random, will this get a - z or just a - y???
     var random = Math.floor(Math.random() * availableLetters.length);
     // updates compLetter variable with random letter from availableLetters 
     compLetter = availableLetters[random];
