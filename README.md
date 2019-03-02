@@ -16,10 +16,10 @@ This was our first homework using JavaScript in conjunction with HTML and CSS to
 I modified the requirements because I was not interested in displaying losses or wins, you either win and the game reselts or you run out of guesses and the game resets, the counter is set on the guesses left so I met the requirement there and made a more realistic game experience
 
 On top of the requirements and modifications listed above, I added:
-* alerts to let the user know when they won or lost and what the correct letter was
-* if the user chose a letter they had already chosen, the user is alerted to picj another letter
-* the counter only decreases if the user only pics a unique wrong letter, not a repeat
-* the game resets after the user won or lost
+* Alerts to let the user know when they won or lost and what the correct letter was
+* If the user chose a letter they had already chosen, the user is alerted to picj another letter
+* The counter only decreases if the user only pics a unique wrong letter, not a repeat
+* The game resets after the user won or lost
 
 The exercise had us manipulate:
 * Functions
